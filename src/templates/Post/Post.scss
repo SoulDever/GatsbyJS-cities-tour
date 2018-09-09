@@ -1,0 +1,54 @@
+.Post {
+    .Post-title {
+        font-size: 36px;
+        margin: 0 0 20px;
+        color: #E71D36;
+        font-family: 'Halant', serif;
+        padding: 0 30px;
+    }
+
+    .Post-cover {
+        height: 300px;
+        width: 100%;
+        margin: 0 0 20px;
+    }
+
+    .Post-author {
+        color: #FF9F1C;
+        font-size: 20px;
+        margin: 0 0 7px;
+        font-family: 'Nunito Sans', serif;
+        padding: 0 30px;
+
+        > small {
+            color: #011627
+        }
+    }
+
+    .Post-date {
+        font-size: 16px;
+        color: #2EC4B6;
+        margin: 0 0 20px;
+        display: block;
+        font-family: 'Nunito Sans', serif;
+        padding: 0 30px;
+    }
+
+    .Post-description {
+        margin: 20px auto;
+        display: block;
+        font-size: 18px;
+        line-height: 24px;
+        font-family: 'Nunito Sans', serif;
+        padding: 0 30px;
+    }
+
+    .Post-back {
+        margin: 80px auto 0;
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        color: #FF9F1C;
+        font-family: 'Nunito Sans', serif;
+    }
+}

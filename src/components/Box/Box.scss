@@ -1,0 +1,39 @@
+.Box {
+    max-width: 320px;
+    margin: 0 20px;
+    box-sizing: border-box;
+    border: 1px solid #EEE;
+    transition: all 250ms;
+    border-radius: 3px;
+    cursor: pointer;
+
+    &:hover {
+        transform: translateY(-5px)
+    }
+
+    .Box-link {
+        text-decoration: none;
+
+        .Box-title {
+            padding: 20px 20px 0;
+            font-family: 'Halant', serif;
+            font-size: 22px;
+            color: #E71D36;
+        }
+
+        .Box-description {
+            padding: 10px 20px 20px;
+            font-family: 'Nunito Sans', serif;
+            font-size: 16px;
+            line-height: 21px;
+            color: #011627
+        }
+    }
+
+    .Box-cover {
+        height: 180px;
+        width: 100%;
+        background-size: cover;
+        background-position: center center;
+    }
+}
