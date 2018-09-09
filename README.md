@@ -1,6 +1,6 @@
-# Gatsby Cities Tour using React, MD Files, GraphQL, PostCSS and SASS
+# GatsbyJS - Cities Tour
 
-This is an advanced boilerplate to create GatsbyJS Projects using React, PostCSS, SASS.
+This is an advanced boilerplate to create GatsbyJS applications using React, MD files, GraphQL, PostCSS and SASS.
 
 ### Requirements
 
@@ -24,4 +24,4 @@ This is an advanced boilerplate to create GatsbyJS Projects using React, PostCSS
 
 ### How to build
 
-1.  Run: `npm run build` to build website into `/public` folder
+Run: `npm run build` to build website into `/public` folder
