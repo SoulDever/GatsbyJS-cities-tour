@@ -18,7 +18,7 @@ This is an advanced boilerplate to create GatsbyJS applications using React, MD 
 1.  Run: `npm i -g gatsby-cli` to install Gatsby CLI globally
 1.  Run: `npm i` to install all dependencies
 1.  Run: `npm start` to run Gatsby in development mode
-1.  Wait a moment until you see the following message on the console `You can now view gatsby-cities-tour in the browser.`
+1.  Wait a moment until you see the following message on the console `You can now view gatsbyjs-cities-tour in the browser.`
 1.  If step 4 is complete without errors, open the browser and navigate to [http://localhost:8000](http://localhost:8000)
 1.  Enjoy writing code!
 
