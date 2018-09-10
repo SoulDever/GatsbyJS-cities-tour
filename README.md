@@ -25,3 +25,6 @@ This is an advanced boilerplate to create GatsbyJS applications using React, MD 
 ### How to build
 
 Run: `npm run build` to build website into `/public` folder
+
+### Netlify support
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/SoulDever/GatsbyJS-cities-tour)
