@@ -2,7 +2,7 @@
 title: "Florence"
 date: "2018-09-08"
 author: "Jack Green"
-cover_image: "../assets/img/florence.jpg"
+cover_image: "./img/florence.jpg"
 ---
 Florence is the capital city of the Italian region of Tuscany. It is the most populous city in Tuscany, with 383,084 inhabitants in 2013, and over 1,520,000 in its metropolitan area.
 
