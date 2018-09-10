@@ -2,10 +2,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import './Box.scss';
+import Img from 'gatsby-image'
 
 const Box = (props) => {
 
   const { title, date, author, redirectUrl, description, background } = props;
+
+  console.log(background);
 
   return (
       <div className="Box">
@@ -13,7 +16,7 @@ const Box = (props) => {
             to={redirectUrl}
             className="Box-link"
           >
-              <div className="Box-cover" style={{backgroundImage: `url(${background})`}}/>
+              <Img className="Box-cover" sizes={background} />
               <h3 className="Box-title">
                   { title }
               </h3>
@@ -32,7 +35,7 @@ Box.propTypes = {
   redirectUrl: PropTypes.string,
   author: PropTypes.string,
   timeToRead: PropTypes.number,
-  background: PropTypes.string,
+  background: PropTypes.object,
 }
 
 export default Box

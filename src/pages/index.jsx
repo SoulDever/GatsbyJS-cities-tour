@@ -16,7 +16,7 @@ const IndexPage = ({data}) => {
                       date={node.frontmatter.date}
                       author={node.frontmatter.author}
                       timeToRead={node.timeToRead}
-                      background={node.frontmatter.cover_image.publicURL}
+                      background={node.frontmatter.cover_image.childImageSharp.sizes}
                       redirectUrl={node.fields.slug}
                       />
                 ))
