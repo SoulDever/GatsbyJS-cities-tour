@@ -32,6 +32,10 @@
         display: block;
         font-family: 'Nunito Sans', serif;
         padding: 0 30px;
+
+        > strong {
+            color: #011627;
+        }
     }
 
     .Post-description {
