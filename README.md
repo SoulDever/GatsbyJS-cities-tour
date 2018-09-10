@@ -2,6 +2,9 @@
 
 This is an advanced boilerplate to create GatsbyJS applications using React, MD files, GraphQL, PostCSS and SASS.
 
+### Demo
+* [GatsbyJS - Cities Tour - Demo](https://loving-mcclintock-7ebba2.netlify.com/)
+
 ### Requirements
 
 *  [Node.js](http://nodejs.org)
@@ -26,5 +29,5 @@ This is an advanced boilerplate to create GatsbyJS applications using React, MD 
 
 Run: `npm run build` to build website into `/public` folder
 
-### Netlify support
+### Netlify Deployment
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/SoulDever/GatsbyJS-cities-tour)
