@@ -12,7 +12,7 @@ export default ({ data }) => {
           <Img className="Post-cover" sizes={post.frontmatter.cover_image.childImageSharp.sizes} />
           <h4 className="Post-author"><small>by</small> {post.frontmatter.author}</h4>
           <span className="Post-date"><strong>on</strong> {post.frontmatter.date}</span>
-          <p className="Post-description" dangerouslySetInnerHTML = {{ __html: post.html }}/>
+          <div className="Post-description" dangerouslySetInnerHTML={{ __html: post.html }}/>
           <Link className="Post-back" to="/" title="Back to home">Back to home</Link>
       </div>
   );
